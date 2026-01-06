@@ -3,18 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Claire Loret, Aide Médico-Psychologique diplômée. Accompagnement personnalisé pour enfants, adolescents et adultes en situation de handicap. Séjours adaptés, répit familial, accompagnement à domicile.">
-    <meta name="keywords" content="AMP, aide médico-psychologique, handicap, accompagnement, Snoezelen, répit familial, autisme, déficience intellectuelle">
+    <meta name="description" content="Claire Loret, Aide Médico-Psychologique diplômée avec plus de 13 ans d'expérience. Accompagnement personnalisé pour enfants, adolescents et adultes en situation de handicap (TSA, TND, polyhandicap). Interventions entre Cahors, Fumel et Villeneuve-sur-Lot.">
+    <meta name="keywords" content="AMP, aide médico-psychologique, handicap, accompagnement, Snoezelen, répit familial, autisme, TSA, TND, polyhandicap, Cahors, Fumel, Villeneuve-sur-Lot, Lot, Lot-et-Garonne">
     <meta name="author" content="Claire Loret">
     <meta name="robots" content="index, follow">
+    <meta name="geo.region" content="FR-46">
+    <meta name="geo.placename" content="Fumel, Lot-et-Garonne">
+    <meta name="geo.position" content="44.4475;1.4400">
+    <meta name="ICBM" content="44.4475, 1.4400">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://claireloret.fr/">
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="Claire Loret - Accompagnement Médico-Social">
-    <meta property="og:description" content="Aide Médico-Psychologique diplômée. Accompagnement bienveillant pour personnes en situation de handicap.">
+    <meta property="og:title" content="Claire Loret - Accompagnement Médico-Social | Cahors, Fumel, Villeneuve-sur-Lot">
+    <meta property="og:description" content="Aide Médico-Psychologique diplômée avec plus de 13 ans d'expérience. Accompagnement bienveillant pour personnes en situation de handicap (TSA, TND, polyhandicap).">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="claire.jpg">
+    <meta property="og:url" content="https://claireloret.fr/">
+    <meta property="og:image" content="https://claireloret.fr/claire.jpg">
     
-    <title>Claire Loret | Aide Médico-Psychologique - Accompagnement personnalisé</title>
+    <title>Claire Loret | Aide Médico-Psychologique | Cahors, Fumel, Villeneuve-sur-Lot</title>
+    
+    <!-- Schema.org structured data for local SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "url": "https://claireloret.fr/",
+        "name": "Claire Loret - Aide Médico-Psychologique",
+        "description": "Aide Médico-Psychologique diplômée avec plus de 13 ans d'expérience. Accompagnement personnalisé pour enfants, adolescents et adultes en situation de handicap (TSA, TND, polyhandicap, handicap rare). Interventions à domicile dans le Lot et le Lot-et-Garonne.",
+        "image": "https://claireloret.fr/claire.jpg",
+        "telephone": "+33685140884",
+        "email": "charloteloret@gmail.com",
+        "areaServed": [
+            {
+                "@type": "City",
+                "name": "Cahors",
+                "containedInPlace": {
+                    "@type": "AdministrativeArea",
+                    "name": "Lot"
+                }
+            },
+            {
+                "@type": "City",
+                "name": "Fumel",
+                "containedInPlace": {
+                    "@type": "AdministrativeArea",
+                    "name": "Lot-et-Garonne"
+                }
+            },
+            {
+                "@type": "City",
+                "name": "Villeneuve-sur-Lot",
+                "containedInPlace": {
+                    "@type": "AdministrativeArea",
+                    "name": "Lot-et-Garonne"
+                }
+            }
+        ],
+        "geo": {
+            "@type": "GeoCircle",
+            "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": 44.4475,
+                "longitude": 1.4400
+            },
+            "geoRadius": "50000"
+        },
+        "priceRange": "€€",
+        "serviceType": [
+            "Accompagnement médico-social",
+            "Aide à domicile handicap",
+            "Accompagnement TSA",
+            "Accompagnement TND",
+            "Séjours adaptés handicap",
+            "Répit familial"
+        ],
+        "knowsAbout": [
+            "Troubles du spectre autistique (TSA)",
+            "Troubles du neurodéveloppement (TND)",
+            "Polyhandicap",
+            "Handicap rare",
+            "Snoezelen",
+            "Accompagnement médico-psychologique"
+        ],
+        "hasCredential": {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Diplôme d'État",
+            "name": "Diplôme d'Aide Médico-Psychologique (AMP)",
+            "dateCreated": "2008"
+        },
+        "foundingDate": "2020",
+        "sameAs": []
+    }
+    </script>
+    
+    <!-- Schema.org Person -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Claire Loret",
+        "jobTitle": "Aide Médico-Psychologique",
+        "description": "Professionnelle diplômée avec plus de 13 ans d'expérience dans l'accompagnement des personnes en situation de handicap",
+        "telephone": "+33685140884",
+        "email": "charloteloret@gmail.com",
+        "workLocation": {
+            "@type": "Place",
+            "name": "Lot et Lot-et-Garonne, France"
+        }
+    }
+    </script>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -544,6 +644,60 @@
             opacity: 0.9;
         }
 
+        /* Experience Timeline */
+        .experience-timeline {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .exp-item {
+            display: flex;
+            gap: 1.5rem;
+            align-items: flex-start;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 1.5rem;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            transition: all 0.3s ease;
+        }
+
+        .exp-item:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateX(8px);
+        }
+
+        .exp-item.highlight {
+            background: rgba(232, 165, 152, 0.2);
+            border-color: var(--color-coral);
+        }
+
+        .exp-years {
+            flex-shrink: 0;
+            width: 90px;
+            font-family: var(--font-display);
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--color-coral-soft);
+            text-align: center;
+        }
+
+        .exp-content h3 {
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0.3rem;
+        }
+
+        .exp-content p {
+            font-size: 0.95rem;
+            opacity: 0.9;
+            line-height: 1.5;
+        }
+
         /* Pourquoi */
         #pourquoi {
             background: var(--color-cream);
@@ -666,13 +820,70 @@
             border-top: 1px solid var(--color-sage-light);
         }
 
+        .zone-geo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.8rem;
+            padding: 1rem 1.5rem;
+            background: linear-gradient(135deg, var(--color-sage-light), var(--color-sage));
+            color: white;
+            border-radius: 50px;
+            margin-bottom: 1rem;
+            font-size: 1rem;
+            font-style: normal;
+        }
+
+        .zone-geo .zone-icon {
+            font-size: 1.3rem;
+        }
+
+        .zone-geo strong {
+            font-weight: 600;
+        }
+
+        .zone-details {
+            font-size: 0.95rem;
+            color: var(--color-text-light);
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .zone-details strong {
+            color: var(--color-sage-dark);
+        }
+
         /* Footer */
         footer {
             background: var(--color-text);
             color: rgba(255, 255, 255, 0.7);
-            padding: 2rem;
+            padding: 2.5rem 2rem;
             text-align: center;
-            font-size: 0.9rem;
+        }
+
+        .footer-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .footer-title {
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            color: white;
+            margin-bottom: 1rem;
+        }
+
+        .footer-local {
+            font-size: 0.85rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            opacity: 0.7;
+        }
+
+        .footer-copy {
+            font-size: 0.85rem;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         footer a {
@@ -737,6 +948,22 @@
             .hero {
                 padding: 6rem 1.5rem 3rem;
             }
+
+            .exp-item {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .exp-years {
+                width: auto;
+                text-align: left;
+            }
+
+            .zone-geo {
+                flex-direction: column;
+                text-align: center;
+                gap: 0.5rem;
+            }
         }
     </style>
 </head>
@@ -746,7 +973,7 @@
         <nav>
             <a href="#services">Services</a>
             <a href="#public">Pour qui</a>
-            <a href="#qualifications">Parcours</a>
+            <a href="#qualifications">Expérience</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -756,7 +983,7 @@
             <div class="hero-content">
                 <h1>Claire Loret</h1>
                 <p class="subtitle">Aide Médico-Psychologique Diplômée</p>
-                <p>Un accompagnement chaleureux et personnalisé pour les personnes en situation de handicap. Ensemble, favorisons l'autonomie, l'épanouissement et le bien-être.</p>
+                <p>Plus de 13 ans d'expérience dans l'accompagnement des personnes en situation de handicap. Spécialisée TSA, TND, polyhandicap et handicap rare. Un accompagnement chaleureux pour favoriser l'autonomie et le bien-être.</p>
                 <div class="hero-cta">
                     <a href="#contact" class="btn btn-primary">
                         <span>Me contacter</span>
@@ -846,11 +1073,45 @@
     <section id="qualifications">
         <div class="section-container">
             <div class="section-header">
-                <h2>Parcours & Qualifications</h2>
-                <p>Une expertise construite au fil des années et des formations</p>
+                <h2>Expérience & Qualifications</h2>
+                <p>Plus de 13 ans d'expérience au service des personnes en situation de handicap</p>
                 <div class="accent-line"></div>
             </div>
-            <div class="qualif-grid">
+            
+            <!-- Expérience professionnelle -->
+            <div class="experience-timeline">
+                <div class="exp-item">
+                    <div class="exp-years">7 ans</div>
+                    <div class="exp-content">
+                        <h3>Institut Médico-Éducatif (IME)</h3>
+                        <p>Accompagnement d'enfants et adolescents polyhandicapés</p>
+                    </div>
+                </div>
+                <div class="exp-item">
+                    <div class="exp-years">6 ans</div>
+                    <div class="exp-content">
+                        <h3>Foyer d'Accueil Médicalisé (FAM)</h3>
+                        <p>Accompagnement d'adultes polyhandicapés</p>
+                    </div>
+                </div>
+                <div class="exp-item">
+                    <div class="exp-years">—</div>
+                    <div class="exp-content">
+                        <h3>EHPAD</h3>
+                        <p>Accompagnement de personnes âgées</p>
+                    </div>
+                </div>
+                <div class="exp-item highlight">
+                    <div class="exp-years">Depuis 2020</div>
+                    <div class="exp-content">
+                        <h3>Accompagnement indépendant</h3>
+                        <p>Enfants et adultes en situation de handicap : TSA, TND, handicap rare. Organisation de séjours adaptés. Collaboration avec les familles, tuteurs, institutions et écoles.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Qualifications -->
+            <div class="qualif-grid" style="margin-top: 3rem;">
                 <div class="qualif-card">
                     <span class="qualif-badge">Diplôme</span>
                     <h3>Aide Médico-Psychologique</h3>
@@ -917,6 +1178,11 @@
                 <div class="accent-line"></div>
             </div>
             <div class="contact-box">
+                <address class="zone-geo" itemscope itemtype="https://schema.org/Place">
+                    <span class="zone-icon">📍</span>
+                    <span>Zone d'intervention : <strong itemprop="name">Cahors • Fumel • Villeneuve-sur-Lot</strong></span>
+                </address>
+                <p class="zone-details">Interventions à domicile dans le <strong>Lot (46)</strong> et le <strong>Lot-et-Garonne (47)</strong>. Déplacements possibles dans un rayon de 50 km autour de Fumel.</p>
                 <div class="contact-methods">
                     <a href="tel:+33685140884" class="contact-method">
                         <div class="icon">📞</div>
@@ -933,7 +1199,11 @@
     </section>
 
     <footer>
-        <p>© 2024 Claire Loret - Aide Médico-Psychologique | Tous droits réservés</p>
+        <div class="footer-content">
+            <p class="footer-title">Claire Loret - Aide Médico-Psychologique</p>
+            <p class="footer-local">Accompagnement à domicile dans le Lot (46) et le Lot-et-Garonne (47) : Cahors, Fumel, Villeneuve-sur-Lot, Puy-l'Évêque, Montcuq, Prayssac, Luzech, Libos, Monsempron-Libos, Penne-d'Agenais, Sainte-Livrade-sur-Lot</p>
+            <p class="footer-copy">© 2025 Claire Loret | Tous droits réservés</p>
+        </div>
     </footer>
 </body>
 </html>
